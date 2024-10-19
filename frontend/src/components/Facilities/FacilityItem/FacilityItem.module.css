@@ -1,0 +1,26 @@
+.facItem h4{
+    margin-top: 0rem;
+    margin-bottom: 0.8rem;
+}
+
+.midText{
+    display: flex;
+}
+.midText a{
+    font-size: 1rem;
+    margin-left: 3rem;
+
+    padding-top: 1.4rem;
+
+    font-size: .9rem;
+}
+
+.midText a:link,.midText a:visited{
+    color:orange;
+    text-decoration:none;
+}
+
+.midText a:hover{
+    color: red;
+    text-decoration:underline;
+}

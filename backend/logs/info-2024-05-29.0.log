@@ -1,0 +1,244 @@
+2024-05-29 10:36:34.826 INFO  74404 --- [main] org.example.bsproject.BSprojectApplicationTests - Starting BSprojectApplicationTests using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 74404 (started by huang in W:\JavaProject\BSproject)
+2024-05-29 10:36:34.828 INFO  74404 --- [main] org.example.bsproject.BSprojectApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 10:36:35.216 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 10:36:35.217 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 10:36:35.231 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2024-05-29 10:36:35.240 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 10:36:35.240 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 10:36:35.250 INFO  74404 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 10:36:35.972 INFO  74404 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2024-05-29 10:36:35.979 INFO  74404 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-05-29 10:36:35.979 INFO  74404 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 10:36:35.979 INFO  74404 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 10:36:36.044 INFO  74404 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 10:36:36.044 INFO  74404 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1199 ms
+2024-05-29 10:36:37.363 INFO  74404 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 10:36:37.452 INFO  74404 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f2fb225, org.springframework.security.web.context.SecurityContextPersistenceFilter@53982523, org.springframework.security.web.header.HeaderWriterFilter@10ed037a, org.springframework.web.filter.CorsFilter@1883871b, org.springframework.security.web.authentication.logout.LogoutFilter@62cf6a84, org.example.bsproject.component.JwtAuthenticationTokenFilter@581b1c08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@700b9e6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@798cf6d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e0a9b1d, org.springframework.security.web.session.SessionManagementFilter@45bbc52f, org.springframework.security.web.access.ExceptionTranslationFilter@3be3e76c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65bd19bf]
+2024-05-29 10:36:37.627 INFO  74404 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 10:36:38.012 INFO  74404 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 10:36:38.141 INFO  74404 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-05-29 10:36:38.162 INFO  74404 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 61336 (http) with context path ''
+2024-05-29 10:36:38.168 INFO  74404 --- [main] org.example.bsproject.BSprojectApplicationTests - Started BSprojectApplicationTests in 3.596 seconds (JVM running for 4.168)
+2024-05-29 10:36:38.508 INFO  74404 --- [main] org.example.bsproject.BSprojectApplicationTests - hello,my logger
+2024-05-29 10:36:39.340 INFO  74404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 10:36:39.347 INFO  74404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:16:11.062 INFO  99836 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 99836 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:16:11.064 INFO  99836 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:16:11.407 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:16:11.408 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:16:11.417 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:16:11.422 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:16:11.423 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:16:11.429 INFO  99836 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:16:11.676 INFO  99836 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:16:11.681 INFO  99836 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:16:11.681 INFO  99836 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:16:11.681 INFO  99836 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:16:11.734 INFO  99836 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:16:11.734 INFO  99836 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 647 ms
+2024-05-29 11:16:12.590 INFO  99836 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:16:12.633 INFO  99836 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22dc59b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3af58f76, org.springframework.security.web.header.HeaderWriterFilter@1a256d80, org.springframework.web.filter.CorsFilter@33e434c8, org.springframework.security.web.authentication.logout.LogoutFilter@550e9be6, org.example.bsproject.component.JwtAuthenticationTokenFilter@7100dea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31a2a9fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@152c4495, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@546394ed, org.springframework.security.web.session.SessionManagementFilter@4eaa375c, org.springframework.security.web.access.ExceptionTranslationFilter@7cfac39f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4887de2b]
+2024-05-29 11:16:12.720 INFO  99836 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:16:12.885 INFO  99836 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:16:12.961 INFO  99836 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:16:12.971 INFO  99836 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:16:12.977 INFO  99836 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 2.151 seconds (JVM running for 2.642)
+2024-05-29 11:16:27.470 INFO  99836 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:16:27.470 INFO  99836 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:16:27.471 INFO  99836 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-05-29 11:16:27.508 INFO  99836 --- [http-nio-8080-exec-1] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:16:29.206 INFO  99836 --- [http-nio-8080-exec-4] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:16:29.364 INFO  99836 --- [http-nio-8080-exec-3] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:16:30.399 INFO  99836 --- [http-nio-8080-exec-2] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:16:30.580 INFO  99836 --- [http-nio-8080-exec-5] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:16:39.932 INFO  99836 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:16:40.559 INFO  99836 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:16:40.575 INFO  99836 --- [http-nio-8080-exec-7] org.example.bsproject.component.WebSocket - [websocket消息]广播消息:系统公告
+2024-05-29 11:19:21.897 INFO  99836 --- [SpringApplicationShutdownHook] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:19:21.907 INFO  99836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:19:21.911 INFO  99836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:19:25.261 INFO  59856 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 59856 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:19:25.262 INFO  59856 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:19:25.574 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:19:25.574 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:19:25.583 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:19:25.590 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:19:25.590 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:19:25.597 INFO  59856 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:19:25.819 INFO  59856 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:19:25.823 INFO  59856 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:19:25.824 INFO  59856 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:19:25.824 INFO  59856 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:19:25.870 INFO  59856 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:19:25.870 INFO  59856 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 588 ms
+2024-05-29 11:19:26.622 INFO  59856 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:19:26.659 INFO  59856 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c7f4457, org.springframework.security.web.context.SecurityContextPersistenceFilter@27abb6ca, org.springframework.security.web.header.HeaderWriterFilter@502a4156, org.springframework.web.filter.CorsFilter@12e12ac9, org.springframework.security.web.authentication.logout.LogoutFilter@7235f92b, org.example.bsproject.component.JwtAuthenticationTokenFilter@50850539, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6968c1d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6968bcec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e230fc6, org.springframework.security.web.session.SessionManagementFilter@42f85fa4, org.springframework.security.web.access.ExceptionTranslationFilter@1163a27, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1faf386c]
+2024-05-29 11:19:26.730 INFO  59856 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:19:26.875 INFO  59856 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:19:26.938 INFO  59856 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:19:26.947 INFO  59856 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:19:26.954 INFO  59856 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 1.896 seconds (JVM running for 2.336)
+2024-05-29 11:19:26.975 INFO  59856 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:19:26.975 INFO  59856 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:19:26.975 INFO  59856 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-05-29 11:19:27.010 INFO  59856 --- [http-nio-8080-exec-1] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:19:34.333 INFO  59856 --- [SpringApplicationShutdownHook] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:19:34.337 INFO  59856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:19:34.339 INFO  59856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:19:37.252 INFO  36040 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 36040 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:19:37.254 INFO  36040 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:19:37.553 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:19:37.553 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:19:37.563 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:19:37.567 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:19:37.567 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:19:37.573 INFO  36040 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:19:37.788 INFO  36040 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:19:37.792 INFO  36040 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:19:37.792 INFO  36040 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:19:37.792 INFO  36040 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:19:37.836 INFO  36040 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:19:37.837 INFO  36040 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2024-05-29 11:19:38.584 INFO  36040 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:19:38.619 INFO  36040 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ca8ef3a, org.springframework.security.web.context.SecurityContextPersistenceFilter@7885776b, org.springframework.security.web.header.HeaderWriterFilter@7a9eccc4, org.springframework.web.filter.CorsFilter@17043b04, org.springframework.security.web.authentication.logout.LogoutFilter@999b951, org.example.bsproject.component.JwtAuthenticationTokenFilter@726aa968, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3472947a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2404b5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@511f5b1d, org.springframework.security.web.session.SessionManagementFilter@3069a360, org.springframework.security.web.access.ExceptionTranslationFilter@4cad79bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ac5d35]
+2024-05-29 11:19:38.698 INFO  36040 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:19:38.844 INFO  36040 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:19:38.908 INFO  36040 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:19:38.919 INFO  36040 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:19:38.925 INFO  36040 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 1.871 seconds (JVM running for 2.324)
+2024-05-29 11:19:39.157 INFO  36040 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:19:39.157 INFO  36040 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:19:39.157 INFO  36040 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-05-29 11:19:39.187 INFO  36040 --- [http-nio-8080-exec-1] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:19:48.405 INFO  36040 --- [SpringApplicationShutdownHook] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:19:48.409 INFO  36040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:19:48.411 INFO  36040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:24:23.527 INFO  59720 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 59720 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:24:23.529 INFO  59720 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:24:23.834 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:24:23.834 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:24:23.844 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:24:23.848 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:24:23.849 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:24:23.855 INFO  59720 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:24:24.073 INFO  59720 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:24:24.076 INFO  59720 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:24:24.077 INFO  59720 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:24:24.077 INFO  59720 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:24:24.122 INFO  59720 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:24:24.123 INFO  59720 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
+2024-05-29 11:24:24.875 INFO  59720 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:24:24.910 INFO  59720 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19bedeb8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7885776b, org.springframework.security.web.header.HeaderWriterFilter@7a9eccc4, org.springframework.web.filter.CorsFilter@1ba467c2, org.springframework.security.web.authentication.logout.LogoutFilter@999b951, org.example.bsproject.component.JwtAuthenticationTokenFilter@726aa968, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3472947a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2404b5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63f6bed1, org.springframework.security.web.session.SessionManagementFilter@3069a360, org.springframework.security.web.access.ExceptionTranslationFilter@4cad79bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ac5d35]
+2024-05-29 11:24:24.981 INFO  59720 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:24:25.127 INFO  59720 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:24:25.190 INFO  59720 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:24:25.199 INFO  59720 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:24:25.204 INFO  59720 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 1.883 seconds (JVM running for 2.331)
+2024-05-29 11:24:40.494 INFO  59720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:24:40.496 INFO  59720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:26:45.574 INFO  87604 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 87604 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:26:45.575 INFO  87604 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:26:45.884 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:26:45.885 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:26:45.895 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:26:45.899 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:26:45.900 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:26:45.905 INFO  87604 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:26:46.129 INFO  87604 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:26:46.133 INFO  87604 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:26:46.133 INFO  87604 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:26:46.133 INFO  87604 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:26:46.178 INFO  87604 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:26:46.179 INFO  87604 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms
+2024-05-29 11:26:46.930 INFO  87604 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:26:46.966 INFO  87604 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33e434c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7885776b, org.springframework.security.web.header.HeaderWriterFilter@7a9eccc4, org.springframework.web.filter.CorsFilter@546394ed, org.springframework.security.web.authentication.logout.LogoutFilter@999b951, org.example.bsproject.component.JwtAuthenticationTokenFilter@726aa968, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3472947a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2404b5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@664212ab, org.springframework.security.web.session.SessionManagementFilter@3069a360, org.springframework.security.web.access.ExceptionTranslationFilter@4cad79bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ac5d35]
+2024-05-29 11:26:47.036 INFO  87604 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:26:47.172 INFO  87604 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:26:47.233 INFO  87604 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:26:47.244 INFO  87604 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:26:47.249 INFO  87604 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 1.882 seconds (JVM running for 2.323)
+2024-05-29 11:28:22.418 INFO  87604 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:28:22.418 INFO  87604 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:28:22.419 INFO  87604 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-29 11:28:22.464 INFO  87604 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:28:23.113 INFO  87604 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:28:24.370 INFO  87604 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:28:24.373 INFO  87604 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:28:25.271 INFO  87604 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:28:25.273 INFO  87604 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:28:26.807 INFO  87604 --- [http-nio-8080-exec-6] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:28:27.497 INFO  87604 --- [http-nio-8080-exec-7] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:28:27.683 INFO  87604 --- [http-nio-8080-exec-8] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:28:41.737 INFO  87604 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:28:41.739 INFO  87604 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:28:41.740 INFO  87604 --- [http-nio-8080-exec-10] org.example.bsproject.component.WebSocket - [websocket消息]广播消息:123
+2024-05-29 11:29:03.177 INFO  87604 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:29:03.179 INFO  87604 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:29:03.180 INFO  87604 --- [http-nio-8080-exec-4] org.example.bsproject.component.WebSocket - [websocket消息]单点消息:123
+2024-05-29 11:29:14.426 INFO  87604 --- [SpringApplicationShutdownHook] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:29:14.436 INFO  87604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:29:14.439 INFO  87604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:29:41.888 INFO  21928 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 21928 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:29:41.889 INFO  21928 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:29:42.197 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:29:42.198 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:29:42.207 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:29:42.212 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:29:42.212 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:29:42.217 INFO  21928 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:29:42.446 INFO  21928 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-29 11:29:42.449 INFO  21928 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:29:42.450 INFO  21928 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:29:42.450 INFO  21928 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:29:42.497 INFO  21928 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:29:42.498 INFO  21928 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 585 ms
+2024-05-29 11:29:43.250 INFO  21928 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:29:43.287 INFO  21928 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b90fee4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7885776b, org.springframework.security.web.header.HeaderWriterFilter@7a9eccc4, org.springframework.web.filter.CorsFilter@3513c84c, org.springframework.security.web.authentication.logout.LogoutFilter@999b951, org.example.bsproject.component.JwtAuthenticationTokenFilter@726aa968, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3472947a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2404b5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4978777f, org.springframework.security.web.session.SessionManagementFilter@3069a360, org.springframework.security.web.access.ExceptionTranslationFilter@4cad79bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ac5d35]
+2024-05-29 11:29:43.361 INFO  21928 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:29:43.501 INFO  21928 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:29:43.566 INFO  21928 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 11:29:43.575 INFO  21928 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-29 11:29:43.580 INFO  21928 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 1.894 seconds (JVM running for 2.338)
+2024-05-29 11:29:53.567 INFO  21928 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:29:53.568 INFO  21928 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:29:53.569 INFO  21928 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-29 11:29:53.613 INFO  21928 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:29:54.257 INFO  21928 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:29:54.276 INFO  21928 --- [http-nio-8080-exec-2] org.example.bsproject.component.WebSocket - [websocket消息]单点消息:111 对象用户名:root
+2024-05-29 11:30:04.837 INFO  21928 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:30:04.839 INFO  21928 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:30:04.840 INFO  21928 --- [http-nio-8080-exec-3] org.example.bsproject.component.WebSocket - [websocket消息]单点消息:123 对象用户名:root
+2024-05-29 11:30:07.386 INFO  21928 --- [http-nio-8080-exec-4] org.example.bsproject.component.WebSocket - root[websocket消息]有新的连接，总数为:1
+2024-05-29 11:30:10.448 INFO  21928 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:30:10.450 INFO  21928 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:30:10.451 INFO  21928 --- [http-nio-8080-exec-5] org.example.bsproject.component.WebSocket - [websocket消息]广播消息:1
+2024-05-29 11:30:22.920 INFO  21928 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-29 11:30:22.922 INFO  21928 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-29 11:30:22.923 INFO  21928 --- [http-nio-8080-exec-6] org.example.bsproject.component.WebSocket - [websocket消息]单点消息:123 对象用户名:root
+2024-05-29 11:30:32.476 INFO  21928 --- [SpringApplicationShutdownHook] org.example.bsproject.component.WebSocket - [websocket消息]连接断开，总数为:0
+2024-05-29 11:30:32.486 INFO  21928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:30:32.490 INFO  21928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-29 11:30:46.180 INFO  106176 --- [main] org.example.bsproject.BSprojectApplicationTests - Starting BSprojectApplicationTests using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 106176 (started by huang in W:\JavaProject\BSproject)
+2024-05-29 11:30:46.181 INFO  106176 --- [main] org.example.bsproject.BSprojectApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:30:46.540 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:30:46.540 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-29 11:30:46.553 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-05-29 11:30:46.560 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-29 11:30:46.560 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-29 11:30:46.568 INFO  106176 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-29 11:30:47.229 INFO  106176 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2024-05-29 11:30:47.235 INFO  106176 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-05-29 11:30:47.235 INFO  106176 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-29 11:30:47.235 INFO  106176 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-29 11:30:47.291 INFO  106176 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:30:47.292 INFO  106176 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1096 ms
+2024-05-29 11:30:48.566 INFO  106176 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-29 11:30:48.660 INFO  106176 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cba0321, org.springframework.security.web.context.SecurityContextPersistenceFilter@7faa0680, org.springframework.security.web.header.HeaderWriterFilter@71166348, org.springframework.web.filter.CorsFilter@795f6681, org.springframework.security.web.authentication.logout.LogoutFilter@751d7425, org.example.bsproject.component.JwtAuthenticationTokenFilter@2d5a1588, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4245bf68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53982523, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66d3b881, org.springframework.security.web.session.SessionManagementFilter@23121d14, org.springframework.security.web.access.ExceptionTranslationFilter@2f8c4fae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79e10fb4]
+2024-05-29 11:30:48.815 INFO  106176 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-29 11:30:49.141 INFO  106176 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-29 11:30:49.271 INFO  106176 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-05-29 11:30:49.283 INFO  106176 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 59320 (http) with context path ''
+2024-05-29 11:30:49.290 INFO  106176 --- [main] org.example.bsproject.BSprojectApplicationTests - Started BSprojectApplicationTests in 3.342 seconds (JVM running for 3.864)
+2024-05-29 11:30:49.603 INFO  106176 --- [main] org.example.bsproject.BSprojectApplicationTests - hello,my logger
+2024-05-29 11:30:50.499 INFO  106176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:30:50.503 INFO  106176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

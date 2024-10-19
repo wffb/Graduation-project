@@ -1,0 +1,75 @@
+.info{
+    background-color: aquamarine;
+
+    margin-bottom:1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.introInput{
+    width: 45%;
+    position: absolute;
+    left: 6rem;
+
+}
+.items{
+
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.itemtop{
+
+
+    margin-top: 1rem;
+    margin-bottom: 0.15rem;
+}
+.itembuttom{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+    margin-top: 0.1rem;
+
+    /*height: 28rem;*/
+}
+.itemText{
+    position: absolute;
+    left: 6rem;
+}
+.IntroducText{
+    margin-left: 1rem;
+}
+.contentText{
+    font-size: .9rem;
+
+    width: 78%;
+    min-width: 20rem;
+
+    height: 28rem;
+
+    margin-top: 0.7rem;
+    margin-left: 6rem;
+
+    border-radius: 0.3rem;
+
+}
+.buttons{
+    /*background-color: red;*/
+
+    display: flex;
+    justify-content: center;
+}
+.info button{
+    width: 5rem;
+    margin-left:1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+
+
+.errorMsg{
+    color: red;
+    display: flex;
+    justify-content: center;
+}

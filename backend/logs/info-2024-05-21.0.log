@@ -1,0 +1,1346 @@
+2024-05-21 09:40:58.994 INFO  23532 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 23532 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-21 09:40:58.997 INFO  23532 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-21 09:40:59.479 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-21 09:40:59.480 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-21 09:40:59.494 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2024-05-21 09:40:59.504 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-21 09:40:59.505 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-21 09:40:59.514 INFO  23532 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-21 09:40:59.813 INFO  23532 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-21 09:40:59.818 INFO  23532 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-21 09:40:59.820 INFO  23532 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-21 09:40:59.820 INFO  23532 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-21 09:40:59.884 INFO  23532 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-21 09:40:59.884 INFO  23532 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 858 ms
+2024-05-21 09:41:01.008 INFO  23532 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-21 09:41:01.061 INFO  23532 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f43cab7, org.springframework.security.web.context.SecurityContextPersistenceFilter@42f85fa4, org.springframework.security.web.header.HeaderWriterFilter@1163a27, org.springframework.web.filter.CorsFilter@481558ce, org.springframework.security.web.authentication.logout.LogoutFilter@1a256d80, org.example.bsproject.component.JwtAuthenticationTokenFilter@7cbeac65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27abb6ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ceee4b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2668c286, org.springframework.security.web.session.SessionManagementFilter@1319bc2a, org.springframework.security.web.access.ExceptionTranslationFilter@28a9494b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@687e6293]
+2024-05-21 09:41:01.180 INFO  23532 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-21 09:41:01.568 INFO  23532 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-21 09:41:01.649 INFO  23532 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-21 09:41:01.670 INFO  23532 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-21 09:41:01.676 INFO  23532 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 3.012 seconds (JVM running for 3.737)
+2024-05-21 09:43:56.080 INFO  23532 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-21 09:43:56.080 INFO  23532 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-21 09:43:56.081 INFO  23532 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-21 09:44:19.662 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 09:44:19.670 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 09:44:21.975 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 09:44:21.976 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 09:44:24.645 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 09:44:24.648 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 09:44:29.441 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 09:44:29.444 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:02:16.791 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:02:16.793 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:33:04.338 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:33:04.339 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root failed
+2024-05-21 10:33:04.343 ERROR 23532 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: 用户未登录
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 10:33:07.361 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:33:07.362 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root failed
+2024-05-21 10:33:07.362 ERROR 23532 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: 用户未登录
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 10:33:09.428 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:33:09.430 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root failed
+2024-05-21 10:33:09.430 ERROR 23532 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: 用户未登录
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 10:33:19.930 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:33:19.933 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:33:21.400 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:33:21.402 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:34:20.994 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:34:20.996 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:35:15.272 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:35:15.274 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:36:18.685 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:36:18.687 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:36:19.509 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:36:19.512 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:36:20.826 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:36:20.829 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:36:22.446 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:36:22.447 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:12.868 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:12.870 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:13.653 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:13.656 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:27.202 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:27.204 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:27.696 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:27.698 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:28.523 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:28.525 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:30.633 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:30.636 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:31.596 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:31.598 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:49.349 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:49.350 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:37:52.928 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:37:52.931 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:39:25.401 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:39:25.402 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:40:32.863 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:40:32.864 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:40:34.877 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:40:34.878 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:41:42.055 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:41:42.057 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:43:15.164 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:43:15.165 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:47:04.971 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:47:04.973 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:48:44.648 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:48:44.650 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:48:50.341 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:48:50.343 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:50:45.817 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:50:45.820 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:52:09.170 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:52:09.171 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:58:33.878 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:58:33.879 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:58:59.369 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:58:59.371 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 10:59:01.377 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 10:59:01.379 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:07:12.851 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:07:12.853 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:07:17.768 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:07:17.770 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:07:36.456 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:07:36.458 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:07:37.517 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:07:37.518 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:08:20.154 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:08:20.155 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:09:58.917 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:09:58.918 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:10:06.675 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:10:06.677 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:11:23.382 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:11:23.384 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:15:00.861 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:15:00.863 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:15:25.933 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:15:25.936 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:15:29.239 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:15:29.240 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:23:42.196 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:23:42.198 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:23:44.366 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:23:44.367 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:03.196 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:03.198 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:08.539 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:08.540 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:13.952 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:13.954 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:22.546 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:22.547 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:32.362 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:32.373 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:24:35.338 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:24:35.339 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:25:57.068 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:25:57.069 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:26:03.429 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:26:03.431 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:26:41.520 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:26:41.522 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:28:19.507 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:28:19.509 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:30:26.841 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:30:26.843 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:30:33.881 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:30:33.882 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:32:29.845 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:32:29.847 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:37:11.395 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:37:11.396 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:37:12.529 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:37:12.530 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:37:19.001 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:37:19.003 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:37:20.432 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:37:20.433 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:37:21.022 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:37:21.023 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:38:05.686 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:38:05.688 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:39:28.955 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:39:28.956 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:39:29.575 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:39:29.577 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:39:31.030 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:39:31.032 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:39:31.747 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:39:31.748 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:42:15.700 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:42:15.703 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:42:18.339 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:42:18.340 INFO  23532 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:42:19.064 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:42:19.065 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:42:19.687 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:42:19.688 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:42:20.133 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:42:20.135 INFO  23532 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:50:42.764 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:50:42.766 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:51:11.288 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:51:11.290 INFO  23532 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:51:15.680 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:51:15.681 INFO  23532 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:51:16.260 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:51:16.262 INFO  23532 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:51:18.673 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:51:18.676 INFO  23532 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:51:19.000 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:51:19.002 INFO  23532 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:52:55.600 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:52:55.601 INFO  23532 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:52:56.203 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:52:56.203 INFO  23532 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 11:52:56.980 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-21 11:52:56.981 INFO  23532 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-21 14:18:13.156 INFO  23532 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:13.156 INFO  23532 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:13.156 INFO  23532 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:13.281 INFO  23532 --- [lettuce-eventExecutorLoop-1-32] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7000
+2024-05-21 14:18:13.281 INFO  23532 --- [lettuce-eventExecutorLoop-1-31] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7000
+2024-05-21 14:18:13.281 INFO  23532 --- [lettuce-eventExecutorLoop-1-30] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7003
+2024-05-21 14:18:13.296 WARN  23532 --- [lettuce-nioEventLoop-4-12] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: No route to host: no further information: /192.168.153.129:7003
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.153.129:7003
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:13.296 WARN  23532 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: No route to host: no further information: /192.168.153.129:7000
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.153.129:7000
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:13.296 WARN  23532 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7001]: No route to host: no further information: /192.168.153.129:7001
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.153.129:7001
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 14:18:17.761 WARN  23532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m13s234ms671µs900ns).
+2024-05-21 14:18:20.194 INFO  23532 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 192.168.153.129:7000
+2024-05-21 14:18:21.121 INFO  23532 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 192.168.153.129:7003
+2024-05-21 14:18:21.122 INFO  23532 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 192.168.153.129:7004
+2024-05-21 14:18:58.583 INFO  23532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-21 14:18:58.592 INFO  23532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-21 14:19:01.641 INFO  14788 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 14788 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-21 14:19:01.642 INFO  14788 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-21 14:19:01.998 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-21 14:19:01.998 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-21 14:19:02.008 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-05-21 14:19:02.013 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-21 14:19:02.014 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-21 14:19:02.020 INFO  14788 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-21 14:19:02.273 INFO  14788 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-21 14:19:02.278 INFO  14788 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-21 14:19:02.279 INFO  14788 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-21 14:19:02.279 INFO  14788 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-21 14:19:02.334 INFO  14788 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-21 14:19:02.334 INFO  14788 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 667 ms
+2024-05-21 14:19:03.330 INFO  14788 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-21 14:19:03.380 INFO  14788 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@474179fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@27abb6ca, org.springframework.security.web.header.HeaderWriterFilter@502a4156, org.springframework.web.filter.CorsFilter@420cd102, org.springframework.security.web.authentication.logout.LogoutFilter@7235f92b, org.example.bsproject.component.JwtAuthenticationTokenFilter@50850539, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6968c1d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6968bcec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c7f4457, org.springframework.security.web.session.SessionManagementFilter@42f85fa4, org.springframework.security.web.access.ExceptionTranslationFilter@1163a27, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fb0a08c]
+2024-05-21 14:19:03.473 INFO  14788 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-21 14:19:03.784 INFO  14788 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-21 14:19:03.855 INFO  14788 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-21 14:19:03.865 INFO  14788 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-21 14:19:03.871 INFO  14788 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 2.475 seconds (JVM running for 3.142)
+2024-05-21 14:19:33.083 INFO  14788 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-21 14:19:33.083 INFO  14788 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-21 14:19:33.084 INFO  14788 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-21 21:20:31.350 INFO  14788 --- [http-nio-8080-exec-5] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:20:31.352 INFO  14788 --- [http-nio-8080-exec-5] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:20:31.352 INFO  14788 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:20:31.359 ERROR 14788 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:22:23.789 INFO  14788 --- [http-nio-8080-exec-7] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:22:23.789 INFO  14788 --- [http-nio-8080-exec-7] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:22:23.790 INFO  14788 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:22:23.790 ERROR 14788 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:23:01.939 INFO  14788 --- [http-nio-8080-exec-8] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:23:01.939 INFO  14788 --- [http-nio-8080-exec-8] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:23:01.939 INFO  14788 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:23:01.940 ERROR 14788 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:29:56.958 INFO  14788 --- [http-nio-8080-exec-10] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:29:56.958 INFO  14788 --- [http-nio-8080-exec-10] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:29:56.958 INFO  14788 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:29:56.959 ERROR 14788 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:30:36.794 INFO  14788 --- [http-nio-8080-exec-1] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:36.794 INFO  14788 --- [http-nio-8080-exec-1] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:36.795 INFO  14788 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:30:36.795 ERROR 14788 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:30:37.334 INFO  14788 --- [http-nio-8080-exec-4] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:37.334 INFO  14788 --- [http-nio-8080-exec-4] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:37.334 INFO  14788 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:30:37.335 ERROR 14788 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:30:37.952 INFO  14788 --- [http-nio-8080-exec-3] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:37.953 INFO  14788 --- [http-nio-8080-exec-3] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:37.953 INFO  14788 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:30:37.953 ERROR 14788 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:30:38.546 INFO  14788 --- [http-nio-8080-exec-8] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:38.547 INFO  14788 --- [http-nio-8080-exec-8] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:30:38.547 INFO  14788 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:30:38.547 ERROR 14788 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:32:25.392 INFO  14788 --- [http-nio-8080-exec-10] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:32:25.392 INFO  14788 --- [http-nio-8080-exec-10] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:32:25.392 INFO  14788 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:32:25.393 ERROR 14788 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:34:57.830 INFO  14788 --- [http-nio-8080-exec-1] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:34:57.831 INFO  14788 --- [http-nio-8080-exec-1] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:34:57.831 INFO  14788 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:34:57.831 ERROR 14788 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:34:58.461 INFO  14788 --- [http-nio-8080-exec-6] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:34:58.462 INFO  14788 --- [http-nio-8080-exec-6] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:34:58.462 INFO  14788 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:34:58.462 ERROR 14788 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:35:05.097 INFO  14788 --- [http-nio-8080-exec-4] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:35:05.097 INFO  14788 --- [http-nio-8080-exec-4] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:35:05.097 INFO  14788 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:35:05.098 ERROR 14788 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:35:05.258 INFO  14788 --- [http-nio-8080-exec-5] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:35:05.258 INFO  14788 --- [http-nio-8080-exec-5] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:35:05.258 INFO  14788 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:35:05.259 ERROR 14788 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:36:29.516 INFO  14788 --- [http-nio-8080-exec-7] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:36:29.516 INFO  14788 --- [http-nio-8080-exec-7] org.example.bsproject.common.util.JwtUtil - JWT格式验证失败:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA
+2024-05-21 21:36:29.518 INFO  14788 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwibmJmIjoxNzE2MjYxNzk1LCJjcmVhdGVkIjoxNzE2MjYxNzk1MTE0LCJpc0FkbWluIjp0cnVlLCJleHAiOjE3MTYyNzYxOTUsImlhdCI6MTcxNjI2MTc5NX0.eSNrrM0INlk9vvZ_Jh9EskStqujaFbWqy4W3RbpmypN0YwTGsDExQjtExGqJxTVlUGfmpvHO40yaWPUOiWGJIA token非法
+2024-05-21 21:36:29.518 ERROR 14788 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: token非法
+	at org.example.bsproject.component.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 21:39:22.418 INFO  14788 --- [lettuce-eventExecutorLoop-1-22] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7003
+2024-05-21 21:39:22.418 INFO  14788 --- [lettuce-eventExecutorLoop-1-23] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7001
+2024-05-21 21:39:24.480 WARN  14788 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7005]: Connection refused: no further information: /192.168.153.129:7005
+2024-05-21 21:39:24.494 WARN  14788 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:28.698 INFO  14788 --- [lettuce-eventExecutorLoop-1-32] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7002
+2024-05-21 21:39:28.807 INFO  14788 --- [lettuce-eventExecutorLoop-1-2] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:39:30.734 WARN  14788 --- [lettuce-nioEventLoop-4-15] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:30.842 WARN  14788 --- [lettuce-nioEventLoop-4-16] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:35.101 INFO  14788 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7001
+2024-05-21 21:39:35.194 INFO  14788 --- [lettuce-eventExecutorLoop-1-13] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:39:37.136 WARN  14788 --- [lettuce-nioEventLoop-4-21] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7005]: Connection refused: no further information: /192.168.153.129:7005
+2024-05-21 21:39:37.229 WARN  14788 --- [lettuce-nioEventLoop-4-22] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:42.299 INFO  14788 --- [lettuce-eventExecutorLoop-1-24] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7002
+2024-05-21 21:39:42.299 INFO  14788 --- [lettuce-eventExecutorLoop-1-25] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:39:44.328 WARN  14788 --- [lettuce-nioEventLoop-4-27] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:44.328 WARN  14788 --- [lettuce-nioEventLoop-4-28] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:49.594 INFO  14788 --- [lettuce-eventExecutorLoop-1-4] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:39:49.594 INFO  14788 --- [lettuce-eventExecutorLoop-1-1] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7000
+2024-05-21 21:39:51.635 WARN  14788 --- [lettuce-nioEventLoop-4-32] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7001]: Connection refused: no further information: /192.168.153.129:7001
+2024-05-21 21:39:51.635 WARN  14788 --- [lettuce-nioEventLoop-4-31] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:39:55.806 INFO  14788 --- [lettuce-eventExecutorLoop-1-7] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:39:55.806 INFO  14788 --- [lettuce-eventExecutorLoop-1-6] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7001
+2024-05-21 21:39:57.844 WARN  14788 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7005]: Connection refused: no further information: /192.168.153.129:7005
+2024-05-21 21:39:57.844 WARN  14788 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:40:06.101 INFO  14788 --- [lettuce-eventExecutorLoop-1-11] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:40:06.101 INFO  14788 --- [lettuce-eventExecutorLoop-1-10] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7005
+2024-05-21 21:40:08.134 WARN  14788 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7004]: Connection refused: no further information: /192.168.153.129:7004
+2024-05-21 21:40:08.134 WARN  14788 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:40:24.606 INFO  14788 --- [lettuce-eventExecutorLoop-1-14] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-21 21:40:24.606 INFO  14788 --- [lettuce-eventExecutorLoop-1-15] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7004
+2024-05-21 21:40:26.638 WARN  14788 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7002]: Connection refused: no further information: /192.168.153.129:7002
+2024-05-21 21:40:26.638 WARN  14788 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-21 21:40:35.487 INFO  14788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-21 21:40:35.496 INFO  14788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

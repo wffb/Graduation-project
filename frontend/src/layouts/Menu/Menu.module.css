@@ -1,0 +1,9 @@
+.menu a:visited, .menu a:link {
+    color:orange;
+    text-decoration:none;
+}
+
+.menu a.active,.menu a:hover{
+    color: red;
+    text-decoration:underline;
+}

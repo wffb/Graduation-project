@@ -1,0 +1,18 @@
+.form{
+    margin-left: 1rem;
+
+}
+.btns{
+    display: flex;
+    justify-content:center;
+}
+.btns button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width:10rem;
+    height:2rem;
+    margin-left: 1rem;
+}

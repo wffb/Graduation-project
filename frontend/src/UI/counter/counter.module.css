@@ -1,0 +1,49 @@
+.counterWrapper{
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+    width: 30%;
+}
+
+.add{
+    /*形状*/
+    border-radius: 50%;
+    width:18px;
+    height:18px;
+    padding: 3px 3px;
+
+    /*height:46.5%;*/
+
+    background: #FCBF49;
+    border: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+
+    margin-left:3% ;
+
+}
+
+.decline{
+    /*形状*/
+    border-radius: 50%;
+    width:18px;
+    height:18px;
+    padding: 3px 3px;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+
+
+    margin-right:3% ;
+
+}

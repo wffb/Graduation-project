@@ -1,0 +1,328 @@
+2024-05-19 00:04:42.213 INFO  4996 --- [lettuce-eventExecutorLoop-1-11] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7003
+2024-05-19 00:04:42.301 INFO  4996 --- [lettuce-eventExecutorLoop-1-12] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7000
+2024-05-19 00:04:42.301 INFO  4996 --- [lettuce-eventExecutorLoop-1-13] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7000
+2024-05-19 00:04:44.262 WARN  4996 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-19 00:04:44.355 WARN  4996 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: Connection refused: no further information: /192.168.153.129:7000
+2024-05-19 00:04:44.355 WARN  4996 --- [lettuce-nioEventLoop-4-12] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-19 00:04:49.601 INFO  4996 --- [lettuce-eventExecutorLoop-1-29] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-19 00:04:49.701 INFO  4996 --- [lettuce-eventExecutorLoop-1-30] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7005
+2024-05-19 00:04:49.701 INFO  4996 --- [lettuce-eventExecutorLoop-1-31] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7000
+2024-05-19 00:04:52.703 WARN  4996 --- [lettuce-nioEventLoop-4-19] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 00:04:52.801 WARN  4996 --- [lettuce-nioEventLoop-4-20] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7004]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 00:04:52.801 WARN  4996 --- [lettuce-nioEventLoop-4-21] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 00:04:56.001 INFO  4996 --- [lettuce-eventExecutorLoop-1-9] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-19 00:04:56.102 INFO  4996 --- [lettuce-eventExecutorLoop-1-11] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7002
+2024-05-19 00:04:56.102 INFO  4996 --- [lettuce-eventExecutorLoop-1-10] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7000
+2024-05-19 00:04:59.101 WARN  4996 --- [lettuce-nioEventLoop-4-25] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 00:04:59.202 WARN  4996 --- [lettuce-nioEventLoop-4-27] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 00:04:59.202 WARN  4996 --- [lettuce-nioEventLoop-4-26] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 14:41:07.110 INFO  36700 --- [main] org.example.bsproject.BSprojectApplication - Starting BSprojectApplication using Java 1.8.0_402 on LAPTOP-I8OFT18R with PID 36700 (W:\JavaProject\BSproject\target\classes started by huang in W:\JavaProject\BSproject)
+2024-05-19 14:41:07.112 INFO  36700 --- [main] org.example.bsproject.BSprojectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 14:41:08.083 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-19 14:41:08.084 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-19 14:41:08.097 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-05-19 14:41:08.105 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-05-19 14:41:08.106 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-19 14:41:08.115 INFO  36700 --- [main] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-05-19 14:41:08.439 INFO  36700 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-19 14:41:08.445 INFO  36700 --- [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-19 14:41:08.445 INFO  36700 --- [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-19 14:41:08.445 INFO  36700 --- [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-05-19 14:41:08.517 INFO  36700 --- [main] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-19 14:41:08.518 INFO  36700 --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+2024-05-19 14:41:09.584 INFO  36700 --- [main] o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-05-19 14:41:09.637 INFO  36700 --- [main] o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2668c286, org.springframework.security.web.context.SecurityContextPersistenceFilter@6968bcec, org.springframework.security.web.header.HeaderWriterFilter@1319bc2a, org.springframework.web.filter.CorsFilter@7f353a0f, org.springframework.security.web.authentication.logout.LogoutFilter@4eaa375c, org.example.bsproject.component.JwtAuthenticationTokenFilter@7fe82967, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e784320, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a9eccc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ea2412c, org.springframework.security.web.session.SessionManagementFilter@2ceee4b6, org.springframework.security.web.access.ExceptionTranslationFilter@1163a27, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e95595b]
+2024-05-19 14:41:09.748 INFO  36700 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-19 14:41:10.057 INFO  36700 --- [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-19 14:41:10.149 INFO  36700 --- [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-19 14:41:10.160 INFO  36700 --- [main] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-19 14:41:10.166 INFO  36700 --- [main] org.example.bsproject.BSprojectApplication - Started BSprojectApplication in 3.387 seconds (JVM running for 4.06)
+2024-05-19 14:41:17.329 INFO  36700 --- [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-19 14:41:17.329 INFO  36700 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-19 14:41:17.330 INFO  36700 --- [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-19 14:43:58.807 INFO  36700 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:43:58.816 INFO  36700 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:44:29.906 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:44:29.908 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:45:47.646 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:45:47.648 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:45:57.273 INFO  36700 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:45:57.275 INFO  36700 --- [http-nio-8080-exec-7] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:45:57.724 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:45:57.726 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:00.489 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:00.491 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:03.609 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:03.611 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:04.191 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:04.191 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:04.194 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:04.194 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:07.047 INFO  36700 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:07.047 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:07.049 INFO  36700 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:07.049 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:14.516 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:14.517 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:14.520 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:14.521 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:25.007 INFO  36700 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:25.009 INFO  36700 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:36.049 INFO  36700 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:36.051 INFO  36700 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:39.936 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:39.939 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:46:54.072 INFO  36700 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - checking admin username:root
+2024-05-19 14:46:54.074 INFO  36700 --- [http-nio-8080-exec-8] o.e.b.component.JwtAuthenticationTokenFilter - authenticated admin:root
+2024-05-19 14:47:08.732 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:47:08.733 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:47:15.156 INFO  36700 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:47:15.159 INFO  36700 --- [http-nio-8080-exec-3] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:47:17.710 INFO  36700 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:47:17.711 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:47:17.713 INFO  36700 --- [http-nio-8080-exec-5] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:47:17.713 INFO  36700 --- [http-nio-8080-exec-4] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:47:20.959 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:47:20.960 INFO  36700 --- [http-nio-8080-exec-9] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:52:36.778 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:52:36.781 INFO  36700 --- [http-nio-8080-exec-6] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:52:37.797 INFO  36700 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:52:37.800 INFO  36700 --- [http-nio-8080-exec-10] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:52:39.240 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:52:39.243 INFO  36700 --- [http-nio-8080-exec-1] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 14:52:40.916 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - checking user username:werb
+2024-05-19 14:52:40.918 INFO  36700 --- [http-nio-8080-exec-2] o.e.b.component.JwtAuthenticationTokenFilter - authenticated user:werb
+2024-05-19 21:39:02.032 INFO  36700 --- [lettuce-eventExecutorLoop-1-22] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7000
+2024-05-19 21:39:02.032 INFO  36700 --- [lettuce-eventExecutorLoop-1-23] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7003
+2024-05-19 21:39:02.032 INFO  36700 --- [lettuce-eventExecutorLoop-1-21] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.153.129:7003
+2024-05-19 21:39:04.078 WARN  36700 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: Connection refused: no further information: /192.168.153.129:7003
+2024-05-19 21:39:04.078 WARN  36700 --- [lettuce-nioEventLoop-4-12] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: Connection refused: no further information: /192.168.153.129:7000
+2024-05-19 21:39:04.078 WARN  36700 --- [lettuce-nioEventLoop-4-11] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: Connection refused: no further information: /192.168.153.129:7000
+2024-05-19 21:39:09.408 INFO  36700 --- [lettuce-eventExecutorLoop-1-9] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7004
+2024-05-19 21:39:09.408 INFO  36700 --- [lettuce-eventExecutorLoop-1-8] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-19 21:39:09.408 INFO  36700 --- [lettuce-eventExecutorLoop-1-7] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7000
+2024-05-19 21:39:12.516 WARN  36700 --- [lettuce-nioEventLoop-4-20] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7002]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 21:39:12.516 WARN  36700 --- [lettuce-nioEventLoop-4-19] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 21:39:12.516 WARN  36700 --- [lettuce-nioEventLoop-4-21] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 21:39:15.811 INFO  36700 --- [lettuce-eventExecutorLoop-1-21] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7005
+2024-05-19 21:39:15.811 INFO  36700 --- [lettuce-eventExecutorLoop-1-19] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7000
+2024-05-19 21:39:15.811 INFO  36700 --- [lettuce-eventExecutorLoop-1-20] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.153.129:7003
+2024-05-19 21:39:18.920 WARN  36700 --- [lettuce-nioEventLoop-4-25] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 21:39:18.920 WARN  36700 --- [lettuce-nioEventLoop-4-27] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7003]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-19 21:39:18.920 WARN  36700 --- [lettuce-nioEventLoop-4-26] io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.153.129:7000]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:349)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:754)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:749)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:732)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)

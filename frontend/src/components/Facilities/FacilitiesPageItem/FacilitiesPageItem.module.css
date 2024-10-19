@@ -1,0 +1,51 @@
+.info{
+    background-color: aquamarine;
+
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom:1.3rem;
+}
+.items{
+
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.itemtop{
+
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+.itembuttom{
+
+    margin-bottom: 1.3rem;
+    margin-top: 0.1rem;
+}
+.itemText{
+    position: absolute;
+    left: 6.5rem;
+}
+.IntroducText{
+    margin-left: 1rem;
+}
+.buttons{
+    /*background-color: red;*/
+
+    display: flex;
+    justify-content: center;
+}
+.info button{
+    width: 5rem;
+    margin-left:1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.info input{
+    width: 15rem;
+    position: absolute;
+    left: 6rem;
+
+}
+

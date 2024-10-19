@@ -1,0 +1,42 @@
+.items{
+
+    background-color: #bbffaa;
+    display: flex;
+    flex-direction:column;
+
+    width: 100%;
+    max-width:60rem;
+    height: 20rem;
+}
+form{
+    display: flex;
+    flex-direction:column;
+
+}
+.formItem{
+    /*height:2rem;*/
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+
+    margin-bottom: 1rem;
+}
+.formItem input{
+    width: 15rem;
+
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.buttons button{
+    width: 7rem;
+}
+h2{
+    text-align: center;
+}

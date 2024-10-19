@@ -1,0 +1,15 @@
+.sidebar{
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 6rem;
+
+    background:#dee2e6;
+    width:15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+

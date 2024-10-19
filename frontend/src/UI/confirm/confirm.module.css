@@ -1,0 +1,69 @@
+.confirmBackdrop{
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirm{
+    width: 31rem;
+    height: 12rem;
+
+    border-radius: 25px;
+    background-color:white ;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 100%;
+    height: 35%;
+
+    /*background-color: #bfa;*/
+
+    font-size: 1.3rem;
+
+    /*margin-top: 20rem;*/
+    /*margin-bottom: 27rem;*/
+
+
+
+}
+.makesure{
+    /*background-color: red;*/
+
+    width: 100%;
+    height: 20%;
+}
+
+.makesure button{
+
+
+    height: 100%;
+    width: 27%;
+    border-radius: 20px;
+
+
+    margin-left: 16%;
+
+    font-size: 1.1rem;
+
+}
+.yes{
+
+
+    background-color: #FCBF49;
+    border: none;
+}
+.no{
+    background-color: white;
+    border: 1px solid black;
+}
